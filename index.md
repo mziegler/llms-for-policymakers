@@ -6,7 +6,7 @@ layout: default
 title: Home
 ---
 
-### Introduction
+# Introduction
 
 Some introductory stuff
 
