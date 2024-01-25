@@ -1,0 +1,46 @@
+/* ocean nexus colors: 
+
+blues dark to light
+#0d2142
+#6a7a8b
+#61737d <-- unsaturated
+#b4bcc5
+
+
+greys
+#666669
+#b3ada3
+*/
+
+div#side-nav a {
+    color:  #112443;
+}
+
+div#side-nav a.nav-link.active {
+    color: white;
+    background-color: #112443;
+}
+
+
+div.card.aside-box {
+    background-color: #e3eaf3;
+    padding: 1em;
+}
+
+
+
+.badge.badge-free {
+    font-size: 80%;
+    font-weight: normal;
+    margin-left:0.2em;
+    background-color: #0d2142;
+    color: white;
+}
+
+.badge.badge-paid {
+    font-size: 80%;
+    font-weight: normal;
+    margin-left:0.2em;
+    background-color: #e3eaf3;
+    color: #0d2142;
+}
