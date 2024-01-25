@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A resource on ChatGPT for policymakers. We cover how to access it, how it works,
   its realistic capabilities and limitations for policy-related work, strategies
   for using it most effectively, and its biases and pitfalls to watch out for.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/llms-for-policymakers" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 # github_username:  jekyll
