@@ -5,8 +5,7 @@
     <link href="{{ site.baseurl }}/assets/css/bootstrap.min.css" rel="stylesheet" >
     <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" >
     <script src="{{ site.baseurl }}/assets/js/bootstrap.bundle.min.js"></script>
-    <script	type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.14.0/gradio.js"
-></script>
+    <!-- <script	type="module" src="https://gradio.s3-us-west-2.amazonaws.com/4.14.0/gradio.js"></script> -->
 </head>
 <body>
 <main>
@@ -26,13 +25,18 @@
                     
                     <ul class="nav nav-pills flex-column mb-auto w-100">
                         <li class="nav-item">
-                          <a href="{{site.baseurl}}/" class="nav-link {% if page.name == 'index.md'%}active{% endif %}" aria-current="page">
-                            Home
+                          <a href="{{site.baseurl}}/" class="nav-link construction {% if page.name == 'index.md'%}active{% endif %}" aria-current="page">
+                            Introduction
                           </a>
                         </li>
                         <li>
-                          <a href="#" class="nav-link">
-                            How does it work?
+                          <a href="{{site.baseurl}}/importance" class="nav-link construction {% if page.name == 'importance.md'%}active{% endif %}">
+                            Why is this important?
+                          </a>
+                        </li>
+                        <li>
+                          <a href="{{site.baseurl}}/how-it-works" class="nav-link construction {% if page.name == 'how-it-works.md'%}active{% endif %}">
+                            How does ChatGPT work?
                           </a>
                         </li>
                         <li>
@@ -51,12 +55,12 @@
                           </a>
                         </li>
                         <li>
-                          <a href="{{site.baseurl}}/cautions-pitfalls" class="nav-link {% if page.name == 'cautions-pitfalls.md'%}active{% endif %}">
+                          <a href="{{site.baseurl}}/cautions-pitfalls" class="nav-link construction {% if page.name == 'cautions-pitfalls.md'%}active{% endif %}">
                             Cautions and Pitfalls
                           </a>
                         </li>
                         <li>
-                          <a href="{{site.baseurl}}/biases-equity" class="nav-link {% if page.name == 'biases-equity.md'%}active{% endif %}">
+                          <a href="{{site.baseurl}}/biases-equity" class="nav-link construction {% if page.name == 'biases-equity.md'%}active{% endif %}">
                             Biases and Equity Issues
                           </a>
                         </li>

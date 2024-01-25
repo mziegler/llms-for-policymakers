@@ -6,8 +6,12 @@ layout: default
 title: Home
 ---
 
-### Introduction
+# Why is this Important?
 
-Some introductory stuff
+<br>
 
-What is the purpose of this website
+## AI is poised to change some parts of policymakers' work
+
+<br>
+
+## Lots of hype, but things are poorly understood
