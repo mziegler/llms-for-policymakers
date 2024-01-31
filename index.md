@@ -8,6 +8,4 @@ title: Home
 
 # Introduction
 
-Some introductory stuff
-
-What is the purpose of this website
+This website is still under construction!
