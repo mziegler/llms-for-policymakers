@@ -8,7 +8,7 @@ AI Language Models (like ChatGPT) can have such fluent-feeling conversations tha
 
 <br><br>
 
-## Strengths
+# Strengths
 
 <br>
 
@@ -36,7 +36,7 @@ There are several ways to take advantage of this capability. If you're using a r
     <div class="row gx-3">
         <div class="card chat-example col-sm-10">
             <div class="card-body">
-                <h5 class="card-title">Example detail question</h5><br>
+                <h5 class="card-title">Example detail-oriented question</h5><br>
                 <p class="card-text"><b>Question:</b>What are the modalities for sharing the monetary benefits from marine genetic resources in the UN BBNJ
 agreement?</p>
                 <p class="card-text"><b>BBNJ Chatbot Answer:</b> In the final draft of the UN BBNJ agreement,
@@ -80,7 +80,7 @@ ChatGPT is often pretty good at explaining complex topics in simple terms. This 
 
 <br><br><br><br><br>
 
-## Weaknesses
+# Weaknesses
 
 <br><br>
 
