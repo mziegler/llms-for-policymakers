@@ -25,10 +25,10 @@ Language models with conversational capabilities, like ChatGPT, are able to foll
 
 <div class="card aside-box" markdown="1">
 #### Additional Resources
-**TO DO**
+**TO DO** add some helpful links
 </div>
 
-<br>
+<br><br>
 
 ## Secrecy: a "black box"
 
@@ -41,18 +41,79 @@ GPT and most of the other popular AI Language Models are *black boxes:* the deta
 ## Errors and hallucinations
 GPT and similar AI models sometimes produce errors in their answers, and these errors are often hard to predict and difficult to detect. One type of error is popularly known as *"hallucinations."* Hallucinations stem from the models' mechanism of generating text by guessing one word at a time: they can sometimes generate nonsensical answers that sound plausible but are not rooted in reality. One of the most famous examples of hallucinations is ChatGPT's tendency to make up fake citations when asked to cite its sources; often making up plausible-sounding article titles and author lists, as well as a fake DOI code for an article that doesn't exist. These errors and hallucinations can be difficult to detect when the AI bots present wrong information in a confident tone, making them sound very plausible.
 
-<div class="card"> **TODO: Embed example chats one and two.**</div>
+<div class="container-fluid px-3"> 
+    <div class="row gx-3">
+        <div class="card chat-example col-sm-6">
+        <div class="card-body">
+            <h5 class="card-title">Example Hallucination</h5><br>
+            
+            <p class="card-text"><b>Question:</b> Are marine genetic resources the common
+heritage of mankind?</p>
+            <p class="card-text"><b>BBNJ Chatbot Answer:</b> Yes, marine genetic resources of ar-
+eas beyond national jurisdiction are considered the
+common heritage of mankind and no state shall
+claim or exercise sovereignty or sovereign rights
+over them. This is stated in multiple paragraphs,
+including in Article 4 of the Draft Agreement, which
+states that no state shall claim or exercise sovereignty
+or sovereign rights over marine genetic resources
+of areas beyond national jurisdiction. Additionally,
+Article 5 of the same document states that activities
+with respect to marine genetic resources of areas
+beyond national jurisdiction are in the interests of all
+states and for the benefit of all humanity.</p>
+        </div>
+        <div class="card-footer"><small><b>Commentary:</b> This answer is incorrect. The
+BBNJ agreement does not explicitly state that
+marine genetic resources of areas beyond national
+jurisdiction are the common heritage of mankind;
+the agreement did not go that far. Additionally,
+Article 4 does not relate to this question.
+The bot may have given this wrong answer
+because it is missing context, and does not “know”
+that the “common heritage of mankind” refers
+to a specific legal principle. Rather, it answers
+affirmatively because it finds similar words and
+phrases like “benefit of all humanity.”</small></div>
+    </div>
+    <div class="card chat-example col-sm-6">
+        <div class="card-body">
+            <h5 class="card-title">Example Hallucination</h5><br>
+            
+            <p class="card-text"><b>Question:</b> Does the BBNJ final draft agreement
+apply to warships?</p>
+            <p class="card-text"><b>BBNJ Chatbot Answer:</b> Yes, the final draft agreement of the
+BBNJ does not apply to warships, military aircraft,
+or naval auxiliary. This exception is stated in various
+documents, including...</p>
+        </div>
+        <div class="card-footer"><small><b>Commentary:</b> This example hallucination shows how GPT can "hallucinate" by just generating words one at a time, without planning what it will say later in the sentence. This answer is mostly correct, but
+confusing: the chatbot initially begins by answering
+affirmatively "yes," but continues on (correctly) to
+say that the agreement does not apply. The confusing
+wording here could easily be misunderstood.</small></div>
+    </div>
+
+    </div>
+</div>
 
 
-<br>
+<br><br><br>
 
 
 ## Connecting to external information
 
-General-purpose AI models like ChatGPT can converse about a variety of topics with moderate accuracy, companies and researchers are increasingly building specific-purpose LLM tools that are becoming more accurate and capable of being applied to a specific topic, by connecting them to databases of documents and information. This approach has been shown to reduce hallucinations somewhat. There are already a variety of free and commercial products on the market following this design pattern in response to industry demand in different sectors, from analyzing medical records to chatting about a company's internal knowledge base. We are already starting to see AI products for law and policy, that work by connecting an AI model to a database of law and policy information. (To see some examples, you can search for law or policy in the GPT store.) **TODO add link**
+General-purpose AI models like ChatGPT can converse about a variety of topics with moderate accuracy, companies and researchers are increasingly building specific-purpose LLM tools that are becoming more accurate and capable of being applied to a specific topic, by connecting them to databases of documents and information. This approach has been shown to reduce hallucinations somewhat. There are already a variety of free and commercial products on the market following this design pattern in response to industry demand in different sectors, from analyzing medical records to chatting about a company's internal knowledge base. We are already starting to see AI products for law and policy, that work by connecting an AI model to a database of law and policy information. (To see some examples, you can search for law or policy in the <a href="https://chat.openai.com/gpts" target="_blank">GPT store</a>.)
 
-<div class="card"> **TODO: Embed the example chats showing why data-connected applications are better.**</div>
-
+<div class="container-flex"> 
+    <div class="card col-md-6">
+        <img src="assets/img/gpt-store.png" class="card-img-top" alt='Screenshot of a search on the "GPT Store" for policy-related chatbots.'>
+        <div class="card-body">
+            <h5 class="card-title">Specialized Chatbots</h5>
+            <p class="card-text">This screenshot shows the variety of policy-focused custom chatbots from a search on the <a href="https://chat.openai.com/gpts" target="_blank">GPT store</a>. These are made by connecting ChatGPT to external sources of information, and sometimes giving it special instructions.</p>
+        </div>
+    </div>
+</div>
 
 <br>
 
