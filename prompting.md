@@ -192,8 +192,13 @@ Keep trying different wordings of your prompt, adjusting it and refining it unti
 
 <br>
 
-#### Clear the chat between tries
-ChatGPT's answers are influenced by the earlier messages in each chat. If you don't want this, (e.g. if you want it to do something different), clear the chat before trying again, or start a new chat.
+#### Give it feedback to refine its responses
+Once ChatGPT responds to your question, you can give it feedback for it to try again and get closer to what you want. One of the most useful interaction patterns can be to iteratively "dance" with it, giving it feedback each time, to get closer and closer to what you are looking for. 
+
+<br>
+
+#### If it feels like it's going down the wrong path, clear the chat between tries
+ChatGPT's answers are influenced by the earlier messages in each chat. If you feel like it's stuck on something or is going down the wrong path you can clear the chat before trying again, or start a new chat.
 
 <br>
 
